@@ -1,0 +1,236 @@
+.wrapper__header{
+	background: url(images/fon1.png) no-repeat center;
+	background-size: cover;
+	position: relative;
+	
+}
+.dark{
+	position:absolute;
+	top: 0 ;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.5;
+}
+.header__logo{
+	width: 200 px;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+}
+.logo{
+	color: white;
+	font-family: "FuturisC-Bold";
+}
+.header__navigation{
+	margin: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 100%;
+}
+.menu__item{
+	display: inline-block;
+	margin-top: 15px;
+}
+.menu__link{
+	text-decoration: none;
+    font-size: 12pt;
+    color: white;
+    padding: 0 10px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    transition: all 0.3s;
+	font-family: "Glober Regular";
+}
+.name_company{
+	color: white;
+	font-size: 24pt;
+	text-align: center;
+	width: 525px;
+	font-size: 44pt;
+	margin: auto;
+	padding-bottom: 15px;
+}
+.mission{
+	color: white;
+	font-size: 24pt;
+	text-align: center;
+	padding-bottom: 120px;
+}
+.text_block{
+	margin-top:150px;
+	margin-bottom: 200px;
+	
+}
+.doc{
+	display: inline-block;
+	margin:30px 0 30px 0;
+	font-family:'Glober Regular';
+	font-size:16pt;
+}
+.wrapper__services{
+	background: url(images/fon2.png) no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+.container__services{
+	color: white;
+}
+.main-page__text{
+	font-size: 16pt;
+	color: white;
+	margin: 40px 0 40px 0;
+}
+.service__block_text{
+	color:white;
+	border: 2px solid white;
+	margin: 0 30px 15px 15px;
+	font-size: 10pt;
+	padding:5px;
+	font-family:'Glober Regular';
+	font-weight: bold;
+}
+.service__block_white{
+	background: white;
+	color: black;
+}
+.container__industry{
+	text-align:center;
+}
+
+.industry__line{
+	text-align:center;
+	margin: 0 30px 30px 30px;
+}
+.industry__text{
+	font-size: 16pt;
+	margin: 40px 0 60px 0;
+}
+.industry__block{
+	margin-bottom: 60px;
+}
+
+.wrapper__document{
+	background: url(images/fon3.png) no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+.document{
+	color: white;
+	margin:30px 0 30px 0;
+	font-family:'Glober Regular';
+	font-size:16pt;
+	
+}
+.our-clients__text{
+	font-size: 10pt;
+	margin-bottom: 20px;
+	font-family:'FrizQuadrataCTT';
+}
+.row{
+	margin-bottom: 15px;
+}
+.slide__text_Caps{
+	margin: 0 -15px 0 -15px;
+}
+.article{
+	margin-top: 40px;
+	text-align:center;
+}
+.article__image{
+	margin-bottom:20px;
+}
+.container_credo{
+	background: whitesmoke;
+	font-size: 16pt;
+	
+}
+.credo_line{
+		margin:30px 0 30px 0;
+}
+.wrapper__doc{
+	background: url(images/fon4.png) no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+.articles_line{
+	margin-top: 30px;
+}
+.text_line{
+	margin-top: 100px;
+}
+.one__text{
+	margin-bottom: 10px;
+}
+.image__line{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.info__h1text{
+	font-size: 16pt;
+	margin: 40px 0 40px 40px;
+}
+.info__text{
+	margin: 40px;
+}
+.wrapper__form{
+	background:rgb(245, 245, 245);
+	background-size: cover;
+}
+.container__form{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.form-control{
+	margin-bottom:20px;
+}
+.btn{
+	background-color:gray;
+	color:white;
+	border-radius:1px;
+}
+.form__text{
+	font-size: 16pt;
+	margin: 20px 0 20px 0;
+}
+.contacts{ 
+	z-index: 2;
+	position: absolute;
+	height: 450px;
+	background:#E0E0E0;
+	margin-left: 1%;
+
+}
+.map{   
+	 position: relative; 
+	 opacity: 0.7;
+}
+.logo__dark{
+	color: black;
+}
+.container__footer{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.footer__logoyou{
+	margin-top:20px;
+}
+
+@font-face {
+  font-family: "FuturisC-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/FuturisC-Bold_19221.ttf") format("ttf"), url("../fonts/FuturisC-Bold_19221.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Glober Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Glober Regular.otf") format("otf"), url("../fonts/Glober Regular.otf") format("truetype");
+}
